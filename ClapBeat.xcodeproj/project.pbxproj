@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF4BE6FF1AA27D34008D362E /* Clap.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4BE6FE1AA27D34008D362E /* Clap.m */; };
+		DF4BE7011AA27D8E008D362E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4BE7001AA27D8E008D362E /* AudioToolbox.framework */; };
 		DF51A0CB1AA1403500C46750 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF51A0CA1AA1403500C46750 /* main.m */; };
 		DF51A0CE1AA1403500C46750 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF51A0CD1AA1403500C46750 /* AppDelegate.m */; };
 		DF51A0D11AA1403500C46750 /* ClapBeat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF51A0CF1AA1403500C46750 /* ClapBeat.xcdatamodeld */; };
@@ -15,6 +17,9 @@
 		DF51A0D91AA1403500C46750 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF51A0D81AA1403500C46750 /* Images.xcassets */; };
 		DF51A0DC1AA1403500C46750 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF51A0DA1AA1403500C46750 /* LaunchScreen.xib */; };
 		DF51A0E81AA1403500C46750 /* ClapBeatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF51A0E71AA1403500C46750 /* ClapBeatTests.m */; };
+		DF51A1071AA141AA00C46750 /* clap-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DF51A1041AA141AA00C46750 /* clap-button.png */; };
+		DF51A1081AA141AA00C46750 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = DF51A1051AA141AA00C46750 /* clap.wav */; };
+		DF51A1091AA141AA00C46750 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DF51A1061AA141AA00C46750 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF4BE6FD1AA27D34008D362E /* Clap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Clap.h; sourceTree = "<group>"; };
+		DF4BE6FE1AA27D34008D362E /* Clap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Clap.m; sourceTree = "<group>"; };
+		DF4BE7001AA27D8E008D362E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DF51A0C51AA1403500C46750 /* ClapBeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClapBeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF51A0C91AA1403500C46750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF51A0CA1AA1403500C46750 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +50,9 @@
 		DF51A0E11AA1403500C46750 /* ClapBeatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClapBeatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF51A0E61AA1403500C46750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF51A0E71AA1403500C46750 /* ClapBeatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClapBeatTests.m; sourceTree = "<group>"; };
+		DF51A1041AA141AA00C46750 /* clap-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clap-button.png"; sourceTree = "<group>"; };
+		DF51A1051AA141AA00C46750 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		DF51A1061AA141AA00C46750 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4BE7011AA27D8E008D362E /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +77,7 @@
 		DF51A0BC1AA1403500C46750 = {
 			isa = PBXGroup;
 			children = (
+				DF4BE7001AA27D8E008D362E /* AudioToolbox.framework */,
 				DF51A0C71AA1403500C46750 /* ClapBeat */,
 				DF51A0E41AA1403500C46750 /* ClapBeatTests */,
 				DF51A0C61AA1403500C46750 /* Products */,
@@ -83,6 +96,9 @@
 		DF51A0C71AA1403500C46750 /* ClapBeat */ = {
 			isa = PBXGroup;
 			children = (
+				DF51A1041AA141AA00C46750 /* clap-button.png */,
+				DF51A1051AA141AA00C46750 /* clap.wav */,
+				DF51A1061AA141AA00C46750 /* icon.png */,
 				DF51A0CC1AA1403500C46750 /* AppDelegate.h */,
 				DF51A0CD1AA1403500C46750 /* AppDelegate.m */,
 				DF51A0D21AA1403500C46750 /* ViewController.h */,
@@ -92,6 +108,8 @@
 				DF51A0DA1AA1403500C46750 /* LaunchScreen.xib */,
 				DF51A0CF1AA1403500C46750 /* ClapBeat.xcdatamodeld */,
 				DF51A0C81AA1403500C46750 /* Supporting Files */,
+				DF4BE6FD1AA27D34008D362E /* Clap.h */,
+				DF4BE6FE1AA27D34008D362E /* Clap.m */,
 			);
 			path = ClapBeat;
 			sourceTree = "<group>";
@@ -202,9 +220,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF51A1081AA141AA00C46750 /* clap.wav in Resources */,
 				DF51A0D71AA1403500C46750 /* Main.storyboard in Resources */,
+				DF51A1091AA141AA00C46750 /* icon.png in Resources */,
 				DF51A0DC1AA1403500C46750 /* LaunchScreen.xib in Resources */,
 				DF51A0D91AA1403500C46750 /* Images.xcassets in Resources */,
+				DF51A1071AA141AA00C46750 /* clap-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4BE6FF1AA27D34008D362E /* Clap.m in Sources */,
 				DF51A0CE1AA1403500C46750 /* AppDelegate.m in Sources */,
 				DF51A0CB1AA1403500C46750 /* main.m in Sources */,
 				DF51A0D41AA1403500C46750 /* ViewController.m in Sources */,
@@ -347,9 +369,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ClapBeat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -357,9 +382,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ClapBeat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -416,6 +444,7 @@
 				DF51A0ED1AA1403500C46750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF51A0EE1AA1403500C46750 /* Build configuration list for PBXNativeTarget "ClapBeatTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +453,7 @@
 				DF51A0F01AA1403500C46750 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
